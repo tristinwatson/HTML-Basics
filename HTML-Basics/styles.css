@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+        url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+    padding: 0 5%;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .4);
+    background-image: url("Images/backgroundheader2.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.rap-name {
+    text-align: center;
+    color: rgba(255, 255, 255, .9);
+    font-size: 4em;
+    font-family: 'Booter - Zero Zero';
+    font-weight: normal;
+}
+
+.rap-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.contaner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+}
+ .about-rapper-img {
+    float: left;
+    margin: 15px;
+    border-radius: 50%;
+ }
+
+ .main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em;
+ }
+
+ .main-footer-container {
+    display: flex;
+    align-items: center;
+ }
+
+ .main-footer-container ul {
+    flex-grow: 1;
+    text-align: right;
+ }
+
+ .footer-nav li {
+    padding: 0 .5em;
+ }
+
+ .footer-nav img {
+    width: 50x;
+    height: 50px;
+ }
+
+ .btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+ }
+
+ .btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+ }
